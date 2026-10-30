@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - KRATIS PREMIUM REAL ESTATE</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#F8F9FA] text-[#0A0A0A]">
+
+<header class="bg-[#0A0A0A] sticky top-0 z-50 border-b border-gray-800 flex items-center justify-between px-6 py-2">
+<a href="index.html"><img src="logo%20maker.png" alt="KRATIS" class="h-[56px] w-auto object-contain bg-white p-1 rounded"></a>
+<nav class="hidden md:flex gap-6 text-[13px] font-black text-white items-center">
+<a href="index.html" class="hover:text-[#FFD700]">Home</a>
+<a href="properties.html" class="hover:text-[#FFD700]">All Properties</a>
+<a href="services.html" class="hover:text-[#FFD700]">Services</a>
+<a href="about.html" class="hover:text-[#FFD700]">About Us</a>
+<a href="blog.html" class="text-[#FFD700] border-b-2 border-[#FFD700] pb-1">Blog</a>
+<a href="#" class="hover:text-[#FFD700]">Contact</a>
+</nav>
+<a href="https://wa.me/233558119607" class="bg-[#0A84FF] text-white font-black text-xs px-6 py-3 rounded-full">Contact Us</a>
+</header>
+
+<section class="py-10 text-center">
+<p class="text-[11px] tracking-widest text-gray-400 font-bold"><span class="text-[#0A84FF]">Home</span> / Blog</p>
+<h1 class="text-2xl md:text-3xl font-black mt-3">Real Estate Insights & News</h1>
+</section>
+
+<!-- SPECIAL: CEO PICK + CALCULATOR -->
+<section class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-6 mb-10">
+<div class="md:col-span-2 bg-[#0A0A0A] rounded-2xl p-6 text-white flex gap-4">
+<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200" class="w-20 h-20 rounded-xl object-cover">
+<div><p class="text-[10px] tracking-widest text-[#FFD700]">CEO PHILISAM'S PICK ⭐ SPECIAL</p><h3 class="font-black mt-1">Why Amasaman is the Next East Legon – My 2026 Prediction</h3><p class="text-xs text-gray-400 mt-2">I bought my first plot here for GHC 15k in 2019, now GHC 85k. Here's why I'm telling all my clients to buy now...</p><a class="text-[#FFD700] text-xs font-bold mt-3 inline-block">Read Full Story →</a></div>
+</div>
+<div class="bg-white border-2 border-[#FFD700] rounded-2xl p-5">
+<p class="font-black text-xs"><i class="fa fa-calculator text-[#0A84FF]"></i> KRATIS ROI Calculator – SPECIAL</p>
+<p class="text-[11px] text-gray-500 mt-1">Land price now vs 2 years</p>
+<input id="price" type="number" placeholder="e.g. 80000" class="w-full mt-3 border rounded-lg px-3 py-2 text-xs">
+<button onclick="calc()" class="w-full bg-[#0A84FF] text-white font-black text-xs py-2 rounded-lg mt-2">Calculate Profit</button>
+<p id="result" class="text-xs font-black mt-3 text-[#0A84FF]"></p>
+<script>function calc(){let p=document.getElementById('price').value;let r=p*1.85;document.getElementById('result').innerText='Est. in 2yrs: GHC '+r.toLocaleString()+' (+85% growth)';}</script>
+</div>
+</section>
+
+<!-- BLOG GRID LIKE ZURI -->
+<section class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-6">
+<div class="bg-white rounded-2xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600" class="h-48 w-full object-cover"><div class="p-4"><p class="text-[10px] text-gray-400">REAL ESTATE • 24 MAR 2026</p><h4 class="font-black text-sm mt-1">Buying Land in Ghana: A Step-by-Step Guide</h4><p class="text-[11px] text-gray-500 mt-2">Everything you need to know about site inspection, titling and installment plans before you buy land.</p></div></div>
+<div class="bg-white rounded-2xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600" class="h-48 w-full object-cover"><div class="p-4"><p class="text-[10px] text-gray-400">REAL ESTATE • 23 MAR 2026</p><h4 class="font-black text-sm mt-1">Renting vs Buying in Accra in 2026</h4><p class="text-[11px] text-gray-500 mt-2">A practical breakdown of costs, flexibility and long-term value for Accra home-seekers.</p></div></div>
+<div class="bg-white rounded-2xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600" class="h-48 w-full object-cover"><div class="p-4"><p class="text-[10px] text-gray-400">PROJECTS • 11 MAR 2026</p><h4 class="font-black text-sm mt-1">Inside The Milton: What Life in a 5-Star Apartment Looks Like</h4><p class="text-[11px] text-gray-500 mt-2">A closer look at the finishes, amenities and neighbourhood that make The Milton special.</p></div></div>
+<div class="bg-white rounded-2xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=600" class="h-48 w-full object-cover"><div class="p-4"><p class="text-[10px] text-gray-400">ENTERTAINMENT • 15 FEB 2026</p><h4 class="font-black text-sm mt-1">Unique Real Estate Marketing: Have A Tent Business Card</h4><p class="text-[11px] text-gray-500 mt-2">Creative ways real estate agents in Ghana are standing out.</p></div></div>
+<div class="bg-white rounded-2xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=600" class="h-48 w-full object-cover"><div class="p-4"><p class="text-[10px] text-gray-400">REAL ESTATE • 07 FEB 2026</p><h4 class="font-black text-sm mt-1">Make Sure Your Real Estate Listings Pop</h4><p class="text-[11px] text-gray-500 mt-2">How pricing and staging can help your listing sell faster.</p></div></div>
+<div class="bg-white rounded-2xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600" class="h-48 w-full object-cover"><div class="p-4"><p class="text-[10px] text-gray-400">BUILDING • 12 JAN 2026</p><h4 class="font-black text-sm mt-1">Connect With Corporate Recruiters</h4><p class="text-[11px] text-gray-500 mt-2">How to build a business-friendly, tenant-loved corporate apartment.</p></div></div>
+</section>
+
+<!-- NEWSLETTER SPECIAL -->
+<section class="max-w-7xl mx-auto px-6 py-10">
+<div class="bg-[#0A0A0A] border border-[#FFD700] rounded-2xl px-8 py-6 flex justify-between items-center">
+<div><h3 class="text-white font-black text-sm">Get Kritis Market Report Weekly — FREE</h3><p class="text-gray-400 text-xs mt-1">New lands, price drops, ROI tips. Join 2,300+ investors.</p></div>
+<div class="flex gap-2"><input placeholder="Your email" class="rounded-full px-4 py-2 text-xs w-56"><button class="bg-[#FFD700] text-black font-black text-xs px-6 py-2 rounded-full">Join Now</button></div>
+</div>
+</section>
+
+<footer class="bg-[#0a0a0a] text-white py-12">
+<div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+<div><img src="logo%20maker.png" alt="Kratis" class="h-[60px] w-auto bg-white p-1 rounded mb-3"><p class="text-[12px] text-gray-400">Experience unparalleled service, exceptional quality, and serene living spaces.</p></div>
+<div><div class="font-bold text-sm text-[#FFD700]">QUICK LINKS</div><div class="text-[12px] text-gray-400 mt-3 space-y-1"><div>All Properties</div><div>About Us</div><div>Services</div><div>Blog</div></div></div>
+<div><div class="font-bold text-sm text-[#0A84FF]">OUR PROJECTS</div><div class="text-[12px] text-gray-400 mt-3 space-y-1"><div>The Milton</div><div>LaPrime</div><div>The Emory</div></div></div>
+<div><div class="font-bold text-sm text-[#FFD700]">CONTACT</div><div class="text-[12px] text-gray-400 mt-3 space-y-1"><div>Marion Hotel Sonitra, Ev 8 BAMAKO ST, Amasaman, Accra</div><div>Info@kratispremium.com</div><div>+233 55 8119 607 / +233 59 8456 839</div></div></div>
+</div>
+</footer>
+
+</body>
+</html>
